@@ -1,0 +1,18 @@
+/* these two classes should be in same level */
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  padding-bottom: 52px; /* mind the two same number below in .footer */
+  min-height:95%; /* this is to adjust main height so that scroll bar shows or not */
+  background: radial-gradient(circle, #1992BC 0%, #1474A4 60%);
+}
+
+.footer {
+  background-color: #1474a4;
+  position: relative;
+  clear: both;
+  width: 100%;
+  margin-top:-52px;
+  height:52px;
+}
