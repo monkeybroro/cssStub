@@ -1,0 +1,23 @@
+/* Common */
+.parent {
+    width:200px;
+    height:200px;
+    background-color: aliceblue;
+}
+
+/* Using Flex */
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Non Flex */
+.parent {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.child {
+    display: inline-block;
+}
